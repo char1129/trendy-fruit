@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: normal 100%/1.3 "Open Sans" "Gravitas One" "Rammetto One" "Comfortaa", sans-serif;
+  font-family: Comfortaa, "Open Sans", "Gravitas One", "Rammetto One", sans-serif;
 }
 
 *, *::before, *::after {
@@ -19,6 +19,15 @@ html {
 
 body {
   margin: 0;
+}
+
+p {
+  font-family: "Open Sans";
+}
+
+article {
+  display: block;
+  width: 100%;
 }
 
 .watermelon {
@@ -42,6 +51,5 @@ body {
 }
 
 .persimmon h2 {
-  font-family: "Comfortaa";
-  font-weight: bold;
+  font-family: Comfortaa;
 }
